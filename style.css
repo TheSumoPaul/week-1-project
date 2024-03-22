@@ -112,3 +112,19 @@ p {
   margin: 25px;
   color: #a34de9;
 }
+
+#learnTwo {
+  color: #eeff56;
+  font-size: 32px;
+  text-transform: uppercase;
+  display: flex;
+  margin-left: 30px;
+  border: 2px solid #eeff56;
+  margin-bottom: 100px;
+}
+
+#learnTwo:hover {
+  background-color: #eeff56;
+  color: #ffff;
+  text-decoration: none;
+}
