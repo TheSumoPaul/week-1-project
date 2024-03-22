@@ -1,0 +1,114 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px;
+  background-color: transparent;
+  max-width: 100%;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  gap: 20px;
+  font-size: 32px;
+  top: 28px;
+}
+
+footer {
+  text-align: center;
+  opacity: 60%;
+}
+
+h1 {
+  color: #53add6;
+  margin: 20px;
+  padding: 0px;
+}
+
+button {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  color: #83e270;
+  font-size: 20px;
+}
+
+button:hover {
+  text-decoration: underline;
+  color: #70be60;
+}
+
+nav {
+  display: flex;
+  gap: 8px;
+}
+
+.homePage {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/easter-bunny-and-eggs-65a96bbd0dfe3.jpg?crop=0.8939848939848941xw:1xh;center,top");
+  background-size: cover;
+  background-position: center;
+}
+
+.infoBunny {
+  position: absolute;
+  bottom: 100px;
+  font-size: 60px;
+  right: 30px;
+}
+
+#welcome {
+  color: #ff5050;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+p {
+  color: #ff4bf0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#learn {
+  color: #ff5050;
+  font-size: 32px;
+  text-transform: uppercase;
+  display: flex;
+  margin-left: 500px;
+  border: 2px solid #ff5050;
+  margin-bottom: 100px;
+}
+
+#learn:hover {
+  background-color: #ff5050;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.eventPage {
+  background-image: url("https://cdn.mos.cms.futurecdn.net/TjtZ88nogxegChtJxdis3m.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.eventInfo {
+  position: relative;
+  bottom: 750px;
+  font-size: 60px;
+  left: 50px;
+}
+
+#eventsHead {
+  color: #80f0ff;
+  text-transform: uppercase;
+}
+
+.two {
+  display: flex;
+  width: 900px;
+  margin: 25px;
+  color: #a34de9;
+}
