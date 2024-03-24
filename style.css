@@ -1,8 +1,9 @@
 * {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 0px;
+  margin: 0;
   background-color: transparent;
   max-width: 100%;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -24,23 +25,25 @@ h1 {
   padding: 0px;
 }
 
-button {
+a {
   border: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   cursor: pointer;
   color: #83e270;
   font-size: 20px;
+  text-decoration: none;
 }
 
-button:hover {
+a:hover {
   text-decoration: underline;
   color: #70be60;
 }
 
 nav {
   display: flex;
-  gap: 8px;
+  gap: 18px;
+  line-height: 120px;
 }
 
 .homePage {
@@ -86,6 +89,7 @@ p {
   background-color: #ff5050;
   color: #ffff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .eventPage {
@@ -127,4 +131,5 @@ p {
   background-color: #eeff56;
   color: #ffff;
   text-decoration: none;
+  cursor: pointer;
 }
